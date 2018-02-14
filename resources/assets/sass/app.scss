@@ -1,9 +1,7 @@
+@tailwind preflight;
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Custom components
 
-// Variables
-@import "variables";
+@tailwind utilities;
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Custom utilities

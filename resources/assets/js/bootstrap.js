@@ -1,11 +1,5 @@
 
 window._ = require('lodash');
-
-try {
-    require('bootstrap-sass');
-} catch (e) {}
-
-
 window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
